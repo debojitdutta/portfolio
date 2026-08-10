@@ -1,17 +1,30 @@
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
+import About from "@/components/about";
+import TechStack from "@/components/tech-stack";
+import Projects from "@/components/projects";
+import Experience from "@/components/experience";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#050505]">
+    <main className="min-h-screen bg-[#050505] text-white">
       <Navbar />
+
       <Hero />
 
-      {/* Temporary sections */}
-      <section id="about" className="h-screen" />
-      <section id="projects" className="h-screen" />
-      <section id="experience" className="h-screen" />
-      <section id="contact" className="h-screen" />
+      <About />
+
+      <TechStack />
+
+      <Projects />
+
+      <Experience />
+
+      <Contact />
+
+      <Footer />
     </main>
   );
 }
