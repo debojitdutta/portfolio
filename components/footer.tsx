@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";import { profile } from "@/lib/data";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { profile } from "@/lib/data";
 
 export default function Footer() {
   return (

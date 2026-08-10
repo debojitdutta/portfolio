@@ -1,6 +1,7 @@
 "use client";
 
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowDown, ArrowUpRight, FileText } from "lucide-react";
+import { profile } from "@/lib/data";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "motion/react";
 
@@ -32,16 +33,16 @@ export default function Hero() {
           </div>
 
           <h1 className="max-w-4xl text-5xl font-semibold leading-[0.95] tracking-[-0.05em] text-white sm:text-7xl md:text-8xl">
-            Debojit
+            {profile.name.split(" ")[0]}
             <br />
-            <span className="text-white/30">Dutta.</span>
+            <span className="text-white/30">  
+            {profile.name.split(" ").slice(1).join(" ")}.
+</span>
           </h1>
 
           <div className="mt-8 max-w-2xl">
             <p className="text-lg leading-relaxed text-white/50 md:text-xl">
-              Software developer and machine learning enthusiast building
-              practical software, intelligent systems, and occasionally
-              breaking things just to understand how they work.
+              {profile.description}
             </p>
           </div>
 
@@ -58,7 +59,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://github.com/debojitdutta"
+              href={profile.github}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 rounded-full border border-white/10 px-5 py-3 text-sm text-white/60 transition hover:border-white/25 hover:text-white"
@@ -68,13 +69,21 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://linkedin.com/in/debojit-dutta-5871291ba"
+              href={profile.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 rounded-full border border-white/10 px-5 py-3 text-sm text-white/60 transition hover:border-white/25 hover:text-white"
             >
               <FaLinkedin size={16} />
               LinkedIn
+            </a>
+            <a
+              href={profile.resume}
+              download
+              className="flex items-center gap-2 rounded-full border border-white/10 px-5 py-3 text-sm text-white/60 transition hover:border-white/25 hover:text-white"
+            >
+              <FileText size={16} />
+              Resume
             </a>
           </div>
         </motion.div>
