@@ -49,7 +49,7 @@ export const projects = [
     title: "Image Background Remover AI",
     category: "Desktop Application",
     description:
-      "A desktop application for removing image backgrounds with a clean graphical interface.",
+      "A Free desktop application for removing image backgrounds Locally in your pc with a clean graphical interface.",
     technologies: ["Python", "PySide6", "rembg", "Pillow"],
     github: "https://github.com/debojitdutta/ImageBgRemoverAI",
     demo: "",
