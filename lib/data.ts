@@ -9,6 +9,8 @@ export const profile = {
 
   github: "https://github.com/debojitdutta",
   linkedin: "https://linkedin.com/in/debojit-dutta-5871291ba",
+  instagram: "https://instagram.com/_.d.e.b.o.j.i.t._",
+  facebook: "https://www.facebook.com/debojit.dutta.560272",
   resume: "/resume.pdf",
   about: "I'm a computer applications student and aspiring software developer interested in building practical software and intelligent systems. My interests sit at the intersection of software development, machine learning, computer vision, and experimentation. I prefer learning by building rather than simply following tutorials.",
 

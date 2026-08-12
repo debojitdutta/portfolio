@@ -106,10 +106,6 @@ export default function Projects() {
                     <p className="mt-4 leading-7 text-white/40">
                       {project.description}
                     </p>
-
-                    <p className="mt-3 text-sm leading-6 text-white/25">
-                      {project.longDescription}
-                    </p>
                   </div>
 
                   <ArrowUpRight
