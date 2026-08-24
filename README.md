@@ -13,7 +13,7 @@ A personal portfolio showcasing my projects, skills, experience, and work as a s
 
 ## 🌐 Website
 
-**[portfolio-debojitdutta.vercel.app](https://portfolio-debojitdutta.is-a.dev)**
+**[portfolio-debojitdutta.is-a.dev](https://portfolio-debojitdutta.is-a.dev)**
 
 ---
 
