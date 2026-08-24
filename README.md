@@ -9,7 +9,7 @@ A personal portfolio showcasing my projects, skills, experience, and work as a s
 * **TypeScript**
 * **Tailwind CSS**
 * **Vercel**
-* **@.is-dev**
+* **[@.is-dev](@.is-a.dev)**
 
 ## 🌐 Website
 
