@@ -93,7 +93,7 @@ export const education = [
 
 export const certificates = [
   {
-    title: "Data Science with Python",
+    title: "CISCO Data Science with Python",
     issuer: "CISCO Networking Academy",
     date: "2026",
     image: "/certificates/CISCO.jpg",
@@ -103,7 +103,7 @@ export const certificates = [
   },
 
   {
-    title: "GEN AI powered Data Analytics",
+    title: "TATA GEN AI powered Data Analytics",
     issuer: "TATA Motors",
     date: "2025",
     image: "/certificates/TATA.jpg",
