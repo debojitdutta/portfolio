@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { education } from "@/lib/data";
 
 export default function Experience() {
@@ -28,13 +29,29 @@ export default function Experience() {
               </span>
 
               <div>
-                <h3 className="text-xl font-medium text-white">
-                  {item.title}
-                </h3>
+                <div className="flex items-center gap-4">
+                  {item.logo && (
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-white/10 bg-white">
+                      <Image
+                        src={item.logo}
+                        alt={`${item.institution} logo`}
+                        width={48}
+                        height={48}
+                        className="h-full w-full object-contain p-1.5"
+                      />
+                    </div>
+                  )}
 
-                <p className="mt-1 text-sm text-white/30">
-                  {item.institution}
-                </p>
+                  <div>
+                    <h3 className="text-xl font-medium text-white">
+                      {item.title}
+                    </h3>
+
+                    <p className="mt-1 text-sm text-white/30">
+                      {item.institution}
+                    </p>
+                  </div>
+                </div>
 
                 <p className="mt-5 max-w-2xl leading-7 text-white/40">
                   {item.description}

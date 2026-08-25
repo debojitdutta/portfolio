@@ -16,6 +16,7 @@ const links = [
   { name: "Stack", href: "#stack" },
   { name: "Projects", href: "#projects" },
   { name: "Journey", href: "#experience" },
+  { name: "Blogs", href: "Blogs" },
 ];
 
 const socials = [

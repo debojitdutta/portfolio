@@ -12,7 +12,7 @@ import GitHub from "@/components/github";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#050505] text-white">
+    <main className="min-h-screen">
       <ScrollProgress />
       
       <Navbar />

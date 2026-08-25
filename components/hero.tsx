@@ -32,12 +32,12 @@ export default function Hero() {
             Available for opportunities
           </div>
 
-          <h1 className="max-w-4xl text-5xl font-semibold leading-[0.95] tracking-[-0.05em] text-white sm:text-7xl md:text-8xl">
+          <h1 className="max-w-4xl text-5xl font-semibold leading-[0.95] tracking-[-0.05em] text-white dark:text-white sm:text-7xl md:text-8xl">
             {profile.name.split(" ")[0]}
             <br />
-            <span className="text-white/30">  
-            {profile.name.split(" ").slice(1).join(" ")}.
-</span>
+            <span className="text-white/30">
+              {profile.name.split(" ").slice(1).join(" ")}.
+            </span>
           </h1>
 
           <div className="mt-8 max-w-2xl">

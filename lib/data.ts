@@ -77,6 +77,7 @@ export const education = [
     period: "2025 — Present",
     title: "MCA - Master of Computer Applications",
     institution: "Techno India University",
+    logo: "/tiu.jpg",
     description:
       "Studying advanced topics including deep learning, data mining, web technologies, Java, and blockchain.",
   },
@@ -84,6 +85,7 @@ export const education = [
     period: "2022 — 2025",
     title: "BCA - Bachelor of Computer Applications",
     institution: "Gauhati University",
+    logo: "/gu.jpg",
     description:
       "Built a foundation in programming, databases, software development, and computer science.",
   },

@@ -14,7 +14,7 @@ export default function NotFound() {
         </h1>
 
         <p className="mt-6 text-white/40">
-          Looks like this page doesn't exist.
+          Looks like this page doesn&apos;t exist.
         </p>
 
         <Link

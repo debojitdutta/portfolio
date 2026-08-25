@@ -3,8 +3,8 @@ import { technologies } from "@/lib/data";
 export default function TechStack() {
   return (
     <section
-    id="stack"
-     className="border-t border-white/10 px-6 py-32">
+      id="stack"
+      className="border-t border-white/10 px-6 py-32">
       <div className="mx-auto max-w-5xl">
         <p className="mb-4 text-sm uppercase tracking-[0.25em] text-white/30">
           02 / Stack
