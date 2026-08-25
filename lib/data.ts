@@ -90,3 +90,55 @@ export const education = [
       "Built a foundation in programming, databases, software development, and computer science.",
   },
 ];
+
+export const certificates = [
+  {
+    title: "Data Science with Python",
+    issuer: "CISCO Networking Academy",
+    date: "2026",
+    image: "/certificates/CISCO.jpg",
+    description:
+      "Certification covering Python programming and core concepts like DataFrames, Matplotlib.",
+    link: "https://drive.google.com/file/d/1TCVDUIIZ1HNk1tmuVL5TxZL4TVDhoBG0/view",
+  },
+
+  {
+    title: "GEN AI powered Data Analytics",
+    issuer: "TATA Motors",
+    date: "2025",
+    image: "/certificates/TATA.jpg",
+    description:
+      "Certification for job simulation at TATA Motors.",
+    link: "",
+  },
+  {
+    title: "Deloitte Job Simulation",
+    issuer: "DELOITTE",
+    date: "2025",
+    image: "/certificates/DELOITTE.jpg",
+    description:"Certification for job simulation at DELOITTE.",
+    link: "https://drive.google.com/file/d/1b2ncBQNJ0iX5g6khQd7qN_fZcUp3T-PE/view",
+  }, {
+    title: "National Workshop on AI",
+    issuer: "Gratia Technologies",
+    date: "2025",
+    image: "/certificates/AI.jpg",
+    description:  "Certification covering fundamental AI and Machine learning concepts.",
+    link: "https://drive.google.com/file/d/1HQTE9zV2wAcRjARyrSQwIj-aDZFmnjhM/view",
+  },
+  {
+    title: "1st KCDCC Coding Competition",
+    issuer: "KC Das Commerce College",
+    date: "2025",
+    image: "/certificates/kcdcc.jpg",
+    description:  "1st prize in inter college coding competition at KCDCC.",
+    link: "https://drive.google.com/file/d/1cqv5jBhgIcCTp-GnBSXWYQMC3wDht0ul/view",
+  }, {
+    title: "1st in coding competition at AIMT",
+    issuer: "Asian Institute of Management and Technology",
+    date: "2024",
+    image: "/certificates/AIMT.jpg",
+    description:  "1st prize in inter college coding competition at AIMT.",
+    link: "https://drive.google.com/file/d/1sqBYFiJeHwU0Ul8p5WbMSIEPcWivVOvb/view",
+  },
+];

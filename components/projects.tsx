@@ -1,13 +1,16 @@
 "use client";
-import Image from "next/image";
 
 import { ArrowUpRight, ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "motion/react";
 
-import { projects } from "@/lib/data";
+import { projects, profile } from "@/lib/data";
 
 export default function Projects() {
+  const username = profile.github
+    ?.replace("https://github.com/", "")
+    .replace(/\/$/, "");
+
   return (
     <section id="projects" className="border-t border-white/10 px-6 py-24">
       <div className="mx-auto max-w-5xl">
@@ -115,12 +118,39 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* Optional remaining projects */}
-        {projects.length > 3 && (
-          <div className="mt-6 text-center">
-            <p className="text-xs text-white/30">
-              More projects coming soon.
-            </p>
+        {/* GitHub Contribution Activity */}
+        {username && !username.includes("YOUR_") && (
+          <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.02] p-5 md:p-7">
+            <div className="mb-5 flex items-center justify-between">
+              <div>
+                <p className="text-sm font-medium text-white/60">
+                  GitHub activity
+                </p>
+
+                <p className="mt-1 text-xs text-white/25">
+                  My recent coding contributions
+                </p>
+              </div>
+
+              <a
+                href={profile.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-xs text-white/30 transition hover:text-white"
+              >
+                <FaGithub size={14} />
+                GitHub
+                <ArrowUpRight size={13} />
+              </a>
+            </div>
+
+            <div className="overflow-x-auto pb-2">
+              <img
+                src={`https://ghchart.rshah.org/${username}`}
+                alt={`${username}'s GitHub contribution graph`}
+                className="min-w-[700px] w-full opacity-80"
+              />
+            </div>
           </div>
         )}
       </div>

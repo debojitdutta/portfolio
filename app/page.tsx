@@ -8,7 +8,7 @@ import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import CommandPalette from "@/components/command-palette";
 import ScrollProgress from "@/components/scroll-progress";
-import GitHub from "@/components/github";
+import Certificates from "@/components/certificates";
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
 
       <Experience />
 
-      <GitHub />
+      <Certificates />
 
       <Contact />
 
