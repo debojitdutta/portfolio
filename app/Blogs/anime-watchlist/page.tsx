@@ -67,7 +67,7 @@ export default function AnimeWatchlistPage() {
         {/* Header */}
         <header className={styles.header}>
           <h1 className={styles.title}>
-            Anime I've Watched
+            Anime I&apos;ve Watched
           </h1>
         </header>
 
