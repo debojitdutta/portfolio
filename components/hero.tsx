@@ -23,9 +23,12 @@ export default function Hero() {
 
       <div className="relative mx-auto w-full max-w-5xl">
         <motion.div
-          initial={{ opacity: 0, y: 25 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
+          initial={{ opacity: 0, y: 60, scale: 0.96 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{
+            duration: 1,
+            ease: [0.22, 1, 0.36, 1],
+          }}
         >
           <div className="mb-6 flex items-center gap-3 text-sm text-white/40">
             <span className="h-2 w-2 animate-pulse rounded-full bg-green-400" />

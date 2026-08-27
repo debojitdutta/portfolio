@@ -21,7 +21,7 @@ export default function Projects() {
 
         <div className="flex flex-col justify-between gap-6 md:flex-row">
           <h2 className="text-4xl font-semibold tracking-tight md:text-5xl">
-            Things I've
+            Things I&apos;ve
             <br />
             <span className="text-white/30">built.</span>
           </h2>
@@ -34,7 +34,8 @@ export default function Projects() {
 
         {/* Projects */}
         <div className="mt-12 grid gap-4 md:grid-cols-3">
-          {projects.slice(0, 3).map((project, index) => (
+          {projects.slice(0, 3).map((project, index) => 
+            (
             <motion.article
               key={project.title}
               initial={{ opacity: 0, y: 20 }}

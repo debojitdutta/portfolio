@@ -16,6 +16,7 @@ const links = [
   { name: "Stack", href: "#stack" },
   { name: "Projects", href: "#projects" },
   { name: "Journey", href: "#experience" },
+  { name: "Certificates", href: "#certificates" },
   { name: "Blogs", href: "Blogs" },
 ];
 
@@ -158,7 +159,7 @@ export default function Navbar() {
             href="#contact"
             className="hidden rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition hover:bg-white/90 md:block"
           >
-            Let's Connect
+            Let&apos;s Connect
           </a>
 
           <button
@@ -230,7 +231,7 @@ export default function Navbar() {
               onClick={() => setMobileOpen(false)}
               className="mt-2 rounded-full bg-white px-4 py-3 text-center text-sm font-medium text-black"
             >
-              Let's Connect
+              Let&apos;s Connect
             </a>
           </div>
         </div>
