@@ -283,6 +283,7 @@
   transform: translateY(-5px);
 
   background: var(--surface-hover);
+  box-shadow: 0 10px 20px rgba(244, 192, 37, 0.2);
 
   border-color: #55555d;
 }
