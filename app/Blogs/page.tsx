@@ -18,7 +18,7 @@ const blogsData: BlogPost[] = [
     description:
       "A collection of anime I've watched, from classics like Cowboy Bebop and Berserk to modern series like Jujutsu Kaisen and Solo Leveling.",
     tags: ["Anime"],
-    link: "/app",
+    link: "/Blogs/anime-watchlist",
   },
 ];
 
